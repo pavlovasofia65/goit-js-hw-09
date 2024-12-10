@@ -1,2 +1,2 @@
-import"./assets/styles-DD3qoKza.js";console.log("Form");
+import"./assets/styles-BwpYx_nc.js";const t={email:" ",message:" "},l=document.querySelector(".feedback-form"),e=document.querySelector('[type="email"]'),a=document.querySelector('[name="message"]'),o=JSON.parse(localStorage.getItem("feedback-form-state"))||{};e.value=o.email||"";a.value=o.message||"";l.addEventListener("input",s=>{t.email=e.value,t.message=a.value,localStorage.setItem("feedback-form-state",JSON.stringify(t))});l.addEventListener("submit",s=>{s.preventDefault(),a.value!==""&&e.value!==""?(console.log({email:e.value,message:a.value}),l.reset(),localStorage.removeItem("feedback-form-state")):alert("Fill please all fields")});
 //# sourceMappingURL=2-form.js.map
