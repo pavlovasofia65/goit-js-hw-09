@@ -1,0 +1,39 @@
+body {
+    width: 1260px;
+    margin-left: 0;margin-right: 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.gallery-item {
+    list-style-type: none;
+}
+.gallery-image {
+    width: 360px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-image:hover {
+    transform: scale(1.05);
+    margin: 20px 16px;
+}
+
+.sl-wrapper {
+    background-color: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-navigation button.sl-next{
+    color: #FFFFFF;
+}
+.sl-wrapper .sl-navigation button.sl-prev{
+    color: #FFFFFF;
+}
+.sl-wrapper button.sl-close {
+    color: #FFFFFF;
+}
+
+
+div.sl-wrapper .sl-counter {
+    color: #fff;
+}

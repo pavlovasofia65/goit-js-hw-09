@@ -1,0 +1,48 @@
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedback-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+input {
+    border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+
+input:hover {
+    border: 1px solid #000;
+}
+
+textarea {
+    border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 80px;
+}
+
+textarea:hover {
+    border: 1px solid #000;
+}
+
+button {
+    border-radius: 8px;
+padding: 8px 16px;
+width: 95px;
+height: 40px;
+background: #4e75ff;
+border: none;
+color: #fff;
+}
+
+button:hover {
+    background: #6c8cff;
+}
